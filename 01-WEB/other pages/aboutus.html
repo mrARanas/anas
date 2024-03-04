@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            width: 100%;
+        }
+
+        .page-1 {
+            height: 100vh;
+            width: 100%;
+        }
+
+        .page-1>.container {
+            text-align: center;
+            padding: 4vh 5%;
+
+        }
+
+        .page-1>.container>h3 {
+            background-image: linear-gradient(to right, #308A97, #760048);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            font-weight: 800;
+            width: 300px;
+            margin: 3vh auto;
+            font-size: 35px;
+        }
+
+        .page-1>.container>h1 {
+            font-weight: 800;
+            font-size: 60px;
+            margin: 3vh auto;
+
+        }
+
+        .page-1>.container>button {
+            background-color: #444bd3;
+            padding: 2vh 3vw;
+            border: none;
+            border-radius: 30px;
+            margin: 3vh auto;
+            color: w;
+
+        }
+        .page-1>.container>img{
+            width: 10%;
+            position: absolute;
+            left: 20%;
+        }
+        .page-2{
+            height: 60vh;
+            justify-content: center;
+            align-items: center;
+        }
+        .page-2>.container>.row>.col-md>p{
+            border-left: 1px solid gray ;
+            padding: 5px 3vw;
+        }
+        .page-2>.container>.row>.col-md>h2{
+
+        }
+        @media (max-width:1000px) {
+           
+
+        .page-1>.container {
+            text-align: center;
+            padding: 3vh 5%;
+
+        }
+
+        .page-1>.container>h3 {
+           
+            font-weight: 600;
+            width: 250px;
+            margin: 2vh auto;
+        }
+
+        .page-1>.container>h1 {
+            font-weight: 700;
+            font-size: 40px;
+            margin: 2vh auto;
+
+        }
+
+        .page-1>.container>button {
+            
+            border-radius: 30px;
+            margin: 3vh auto;
+
+        }
+        .page-1>.container>img{
+           width: 20%;
+            position: absolute;
+            left: 20%;
+        }
+        .page-2>.container>.row>.col-md{
+            text-align: center;
+            font-size: 25px   ;
+        }
+        .page-2>.container>.row>.col-md>p{
+            border: none;
+            margin-left: 0;
+            padding: 0;
+
+        }
+        }
+        @media (max-width:400px) {
+            .page-1>.container>h1 {
+            font-weight: 600;
+            font-size: 30px;
+            margin: 3vh auto;
+
+        }
+        .page-1>.container {
+            text-align: center;
+            padding: 3vh 5%;
+
+        }
+
+        .page-1>.container>h3 {
+           
+            font-weight: 700;
+            width: 200px;
+            margin: 3vh auto;
+        }
+
+
+        .page-1>.container>button {
+            
+            background-color: #444bd3;
+            padding: 1vh 4vw;
+            border: none;
+            border-radius: 30px;
+            margin: 6vh auto;
+            color: white;
+
+
+        }
+        .page-1>.container>img{
+           width: 30%;
+            position: absolute;
+            left: 10%;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img width="40px" src="../download-removebg-preview.png"
+                        alt="icon   "></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link active" aria-current="page" href="#">about</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                services
+                            </a>
+                            <ul style="overflow: hidden; border-top-right-radius:60px; border-bottom-left-radius:60px ;"
+                                class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">PBV Business</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Branding & Creatives</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Digital Media Marketing & Content </a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Tech Stack </a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Multichannel Retail Management </a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">The Amazon Jungle </a></li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <button type="button" class="btn btn-primary">Contact</button>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+    <div class="page-1">
+        <div class="container">
+            <h3>About us</h3>
+            <h1>We empower businesses and entrepreneurs</h1>
+            <button>Get Started</button>
+            <div class="image">
+                <img width="80%" src="https://s3-alpha-sig.figma.com/img/0567/e1d6/0fb384676847e4cca27fb37647086000?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kbq3Sbnq6kEtjVDt8eHElss7t001NJCNCW0Sa2yvyvfHes8xcwDowfsTtlHmxydSV53mkS3s6RLK~ZR8cgMTtywnHkGFTdXfRY-oijIRnCejIWToVppo4yodRa6UBd9WCWJ30xM0PB3od5c4Zzja7o3HCgWC9iQXVyYVxpdy4kczJH-8AGb-XXbVrb8ouVJGXokfqFwF1lDC3GTcHVhJUCI8TS8J17Z~ETuVu5BB5dpob9YkRZaAdIlD1p7A1A2KeBSgd31We2dhYg-0PH9CIBXf6fuxnpPqDM4496I-Sgo7LD1e7PPkZohCu6q0thJNW35MPotz9gjnkq23~71uCQ__"
+                    alt="">
+            </div>
+            <img src="https://s3-alpha-sig.figma.com/img/19bf/b4ad/87e66111531b7008871cb5ae840cb476?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mHeyCg29V7oFPnVO6Slp6MbgTKnDG3w--CUEurD9enwRdZPbkU~uoSgVh8k5YEe6o2ycv96sg4kN9BEYuvpfXPpjqSrNXkWuDo0cMy17u7vdx0JMFwINrBibmHxzR6b3ddO~QLgU3vZ9D99d7GL1OrWubCDRMT~U8xqBgW342-jIl~YgWu8Bfl-TAhhIgqvyM1sgK3Y3fH6GnCAzK5ijAAO3jcw87JZSMy8Cnik1TaSfpQgRkkNjAIm~1elC-NRtXbCCBtPdo45oEziMaI3DnHoWLRwMcgMALKVSXe9VnMX77he2sincZtxt6zlgOVNAnouMiZt2fCwsp2~LgFGhmw__"
+                alt="">
+        </div>
+
+    </div>
+    <div class="page-2">
+       <div class="container">
+        <div class="row">
+            <div class="col-md ">
+                <h2>Mission Statement</h2>
+            </div>
+            <div class="col-md ">
+                <p>At Peak Broad Ventures, We envision a world where every enterprise, regardless of size or
+                    industry, thrives and leads in their markets. Through strategic collaboration and innovative
+                    e-commerce strategies, we drive transformative growth.</p>
+            </div>
+        </div>
+       </div>
+    </div>
+    <div class="page-3">
+        <div class="container">
+            <div class="row">
+                <div class="card col-4" style="width: 18rem;">
+                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card col-4" style="width: 18rem;">
+                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                                                      
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
